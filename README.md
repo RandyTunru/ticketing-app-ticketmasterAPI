@@ -6,7 +6,7 @@ Aplikasi ini menggunakan API dari Ticketmaster untuk menampilkan beberapa event 
 
 ## Fitur
 
-Aplikasi terbagi menjadi 3 pages, yaitu:
+Aplikasi terbagi menjadi 4 pages, yaitu:
 
 - Landing page (index.html)
   Landing page terbagi menjadi 4 bagian yaitu:
@@ -24,6 +24,15 @@ Aplikasi terbagi menjadi 3 pages, yaitu:
   Categorical page terdiri dari 2 bagian yaitu:
   - Top bar: Berisi logo, navigasi website, serta sistem login dari aplikasi, dan juga search bar, top bar bersifat sticky
   - Event List: Berisi list event yang sesuai dengan hasil pencarian, data didapatkan dari API Ticketmaster
+
+- Event Page (event.html)
+  Event Page menampilkan event secara spesifik beserta detail nya, page ini terdiri dari beberapa bagian seperti:
+  - Top bar: Berisi logo, navigasi website, serta sistem login dari aplikasi, dan juga search bar, top bar bersifat sticky
+  - Event Image : Merupakan gambar dari event
+  - Event Info : Menampung informasi dari event
+  - Event Description : Menampung deskripsi dan syarat dan ketentuan event
+  - Buy Button : Menampung tombol untuk membeli (belum berfungsi)
+  - Suggested : Merupakan bagian rekomendasi event, data didapatkan dari API Ticketmaster
 
 ## Pengembangan
 
