@@ -27,7 +27,7 @@ Aplikasi terbagi menjadi 3 pages, yaitu:
 
 ## Pengembangan
 
-Aplikasi dikembangkan dengan memisahkan beberapa pages agar tampilan page lebih spesifik dan lebih mudah dilihat, Aplikasi sendiri menggunakan [Ticketmaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/) untuk mendapatkan data seperti nama event, tanggal, foto, dan semacamnya, hal tersebut dilakukan melalui masing masing script yang akan mengolah data tersebut untuk dirender ke Website
+Aplikasi dikembangkan dengan memisahkan beberapa pages agar tampilan page lebih spesifik dan lebih mudah dilihat, Aplikasi sendiri menggunakan [Ticketmaster Discovery API](https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/) untuk mendapatkan data seperti nama event, tanggal, foto, dan semacamnya, hal tersebut dilakukan melalui masing masing script yang akan mengolah data tersebut untuk dirender ke Website
 
 ## Penggunaan
 
