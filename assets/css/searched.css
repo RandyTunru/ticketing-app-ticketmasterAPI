@@ -25,6 +25,12 @@ header{
     gap: 2.5vh;
 }
 
+#logo{
+    height: 6vh;
+    object-fit: contain;
+    margin: 0 2vw;
+}
+
 header nav{
     display: flex;
     flex-direction: row;
