@@ -40,4 +40,4 @@ Aplikasi dikembangkan dengan memisahkan beberapa pages agar tampilan page lebih 
 
 ## Penggunaan
 
-Aplikasi dapat digunakan dengan mengakses [Aplikasi](https://randytunru.github.io/ticketing-app-ticketmasterAPI/index.html), sederhana nya aplikasi dapat digunakan untuk melihat Event apa saja yang ada, dan dapat dicari secara spesifik melalui search bar yang tersedia atau dengan memilih salah satu kategori yang ada
+Aplikasi dapat digunakan dengan mengakses [link ini](https://randytunru.github.io/ticketing-app-ticketmasterAPI/index.html), sederhana nya aplikasi dapat digunakan untuk melihat Event apa saja yang ada, dan dapat dicari secara spesifik melalui search bar yang tersedia atau dengan memilih salah satu kategori yang ada
