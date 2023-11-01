@@ -90,6 +90,10 @@ obj.then(data => {
                 eventInfo.appendChild(eventCity);
             }
 
+            eventItem.addEventListener("click", function() {
+                window.location.href = "event.html?id=" + event.id;
+            });
+
             eventItem.appendChild(eventInfo);
             eventRow.appendChild(eventItem);
             i++;

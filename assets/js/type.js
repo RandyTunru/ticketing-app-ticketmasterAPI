@@ -82,6 +82,11 @@ fetch("https://app.ticketmaster.com/discovery/v2/events.json?apikey=yNWJpKN0jf1o
         eventInfo.appendChild(eventVenue);
 
         eventItem.appendChild(eventInfo);
+
+        eventItem.addEventListener("click", function() {
+            window.location.href = "event.html?id=" + event.id;
+        });
+        
         eventList.appendChild(eventItem);
     }
 })

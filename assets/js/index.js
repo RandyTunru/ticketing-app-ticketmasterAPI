@@ -36,8 +36,13 @@ fetch("https://app.ticketmaster.com/discovery/v2/suggest.json?apikey=yNWJpKN0jf1
     let eventTime = document.createElement("p");
     eventTime.innerText = event.dates.start.localTime;
     eventInfo.appendChild(eventTime);
-
+    
     eventItem.appendChild(eventInfo);
+
+    eventItem.addEventListener("click", function() {
+      window.location.href = "event.html?id=" + event.id;
+    });
+    
     eventList.appendChild(eventItem);
   }
 })
@@ -74,6 +79,11 @@ fetch("https://app.ticketmaster.com/discovery/v2/attractions.json?apikey=yNWJpKN
     eventInfo.appendChild(eventName);
 
     eventItem.appendChild(eventInfo);
+
+    eventItem.addEventListener("click", function() {
+      window.location.href = "event.html?id=" + event.id;
+  });
+
     eventList.appendChild(eventItem);
   } 
 })

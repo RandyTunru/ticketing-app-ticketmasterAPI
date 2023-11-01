@@ -125,6 +125,7 @@ nav #account{
     border-radius: 5px;
     width: 20vw;
     height: 40vh;
+    cursor: pointer;
 }
 
 .img-container{
