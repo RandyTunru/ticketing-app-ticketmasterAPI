@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+</head>
+<body>
+    <header id="jumbotron">
+        <nav id="nav">
+           <h3>Event System</h3>
+            <div id="account">
+                <p><a>Masuk</a></p>
+                <button>Daftar</button>  
+            </div>
+            
+        </nav>
+        <main id="jumbo-main">
+            <h2 id="header">Hey there, <span id="emph-header">looking for events?</span></h2>
+            <div id="search-container">
+                <input id="search-bar" title="event-searchbar" placeholder="Look for more events!" />
+                <!-- <button id="search-button" type="submit">Search</button> -->
+            </div>
+            <div id="types">
+                <div id="concert" class="type-item">
+                    <div class="type-logo-container">
+                        <img src="assets/img/basil_music-solid.png" class="type-logo">
+                    </div>
+                    <p>Concert</p>
+                </div>
+                <div id="arts" class="type-item">
+                    <div class="type-logo-container">
+                        <img src="assets/img/mdi_art.png" class="type-logo">
+                    </div>
+                    <p>Art & Theatre</p>
+                </div>
+                <div id="family" class="type-item">
+                    <div class="type-logo-container">
+                        <img src="assets/img/ic_round-family-restroom.png" class="type-logo">
+                    </div>
+                    <p>Family</p>
+                </div>
+                <div id="sports" class="type-item">
+                    <div class="type-logo-container">
+                        <img src="assets/img/ph_soccer-ball-fill.png" class="type-logo">
+                    </div>
+                    <p>Sports</p>
+                </div>
+            </div>
+        </main>
+        
+    </header>
+    <div id="suggested" class="extras">
+        <h3>Suggested Events</h3>
+        <div id="suggested-list" class="event-list"></div>
+    </div>
+    <div id="attraction" class="extras">
+        <h3>Attractions</h3>
+        <div id="attraction-list" class="event-list"></div>
+    </div>
+    <footer>
+        <p>© 2023 Fakultas Teknik Universitas Hasanuddin</p>
+    </footer>
+</body>
+<script type="text/javascript" src="assets/js/index.js"></script>
+</html>
