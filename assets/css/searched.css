@@ -28,7 +28,6 @@ header{
 #logo{
     height: 6vh;
     object-fit: contain;
-    margin: 0 2vw;
 }
 
 header nav{
